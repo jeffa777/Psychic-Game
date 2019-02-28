@@ -1,17 +1,43 @@
 body {
-    background-color: steelblue;
-    color: black;
-    margin-left: 200px;
-    font-weight: bold;
-    
+    background-image: url(https://st.depositphotos.com/1795881/2348/i/950/depositphotos_23486383-stock-photo-3d-newspaper-letters-background.jpg);
+    font-weight: bold;    
 }
 
-p {
-    font-size: 18px;
-}
-
+/*game title*/
 h1 {
+    background: rgb(31, 30, 90);
+    opacity: 0.9;
     text-align: center;
-    text-decoration: underline;
-    margin-left: -200px;
+    color: silver;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 44px;
+    padding: 10px;
+}
+
+/*instruction text*/
+h2 {
+    background: rgb(31, 30, 90);
+    opacity: 0.9;
+    text-align: center;
+    color: silver;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+/*game results text*/
+#game {
+    background: rgb(31, 30, 90);
+    opacity: 0.9;
+    text-align: center;
+    color: silver;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 60px;
 }
